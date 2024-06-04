@@ -533,11 +533,5 @@ private void openWithDraw(String accountNumber) {
         // Implement writing the deposit balance to CashDeposit
         return false;
     }
- private void openFundTransfer() {
-    // Open the FundTransfer frame and pass the account number
-    FundTransfer fundTransfer = new FundTransfer(accountNumber);
-    fundTransfer.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    fundTransfer.setVisible(true);
-    dispose(); // Close the current frame
-}
+
 }
